@@ -1,0 +1,54 @@
+body{
+  font-family: sans-serif;
+}
+
+.header_bg{
+  background: linear-gradient(90.04deg, #076988 35.54%, #1CA6BB 85.29%);
+}
+.header_tile{
+  padding: 2rem 0;
+  color: #fff;
+}
+
+.section_cal--box{
+  width: 30%;
+  margin-top:2rem;
+  border: 2px solid #076988;
+  padding: 2rem 0;
+  border-radius: .3125rem;
+}
+.section_cal--textBox{
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+.section_cal--textBox .section_cal--nInput{
+  border-radius: .3125rem;
+  border: 2px solid #076988;
+  padding: 1rem .5rem;
+  font-size: 2rem;
+  width: 30%;
+  text-align: center;
+}
+
+.section_cal--buttons .section_cal--common{
+  margin:0 .2rem ;
+ padding:1.3rem;
+ border: none;
+ background-color:#076988;
+ color: #fff;
+ font-size: 1rem;
+ cursor: pointer;
+}
+.section_cal--common:hover{
+  background-color:#1CA6BB;
+}
+
+.section_cal--result{
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  color:#076988;
+}
+.section_cal--resultText{
+  font-size: 2rem;
+  color:#076988;
+}

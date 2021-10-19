@@ -5,9 +5,44 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>js pro</title>
+  <link rel="stylesheet" href="./assets/styles/init.css">
+  <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-  <h1></h1>
+<header class="header">
+<div class="header_bg col-100 floatLft flexDisplay justifyCenter ">
+   <h1 class="header_tile">
+     The Unconventional Calculator
+   </h1>
+</div>
+</header>
 
+<section class="section_cal col-100 float flexDisplay justifyCenter">
+  <div class="section_cal--box">
+    <div class="section_cal--textBox">
+      <input class="section_cal--nInput" type="number" name="number" id="input-number">
+    </div>
+    <div class="section_cal--buttons col-100 float flexDisplay justifyCenter">
+      <button class="section_cal--common add" id="add"> + </button>
+      <button class="section_cal--common sub" id="sub"> - </button>
+      <button class="section_cal--common multi" id="multi"> * </button>
+      <button class="section_cal--common divi" id="divi"> / </button>
+    </div>
+  </div>
+</section>
+<section class="section_res col-100 float flexDisplay justifyCenter">
+  <div class="section_cal--box textCenter">
+
+      <h3 class="section_cal--result" id="current-calculation">0</h3>
+      <h3 class="section_cal--resultText">Result:<span class="section_cal--resultText" id="current-result" >0</span></h3>
+
+    <!-- <div class="section_cal-- col-100 float flexDisplay justifyCenter">
+
+    </div> -->
+  </div>
+</section>
+
+<script src="./assets/script/vendor.js"></script>
+<script src="./assets/script/script.js"></script>
 </body>
 </html>
